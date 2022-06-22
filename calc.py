@@ -9,3 +9,6 @@ def v_0(vs, z0, zs):
 
 def v_l(vs, z0, zl):
     return (zl*vs)/(zl+z0)
+
+def time(l, up):
+    return l/up
